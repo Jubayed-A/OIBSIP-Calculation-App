@@ -23,10 +23,10 @@
         android:id="@+id/outputTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
         android:text=""
         android:textAlignment="viewEnd"
         android:textSize="32sp"
-        android:layout_marginEnd="12dp"
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/line"
         app:layout_constraintEnd_toEndOf="@id/calculationTv"
@@ -36,10 +36,9 @@
         android:id="@+id/line"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:background="@color/lineColor"
-        app:layout_constraintBottom_toTopOf="@id/linearLayout"
         android:layout_marginBottom="6dp"
-        />
+        android:background="@color/lineColor"
+        app:layout_constraintBottom_toTopOf="@id/linearLayout" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -67,8 +66,7 @@
                 style="@style/operatorButton"
                 android:onClick="onBackClick"
                 app:icon="@drawable/backspace"
-                app:iconTint="@color/btnBackground2"
-                />
+                app:iconTint="@color/btnBackground2" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_modules"
@@ -208,10 +206,10 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_equal"
                 style="@style/operatorButton"
-                android:textColor="@color/white"
                 android:backgroundTint="@color/btnBackground2"
                 android:onClick="onEqualClick"
-                android:text="=" />
+                android:text="="
+                android:textColor="@color/white" />
 
         </LinearLayout>
 
