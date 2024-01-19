@@ -26,10 +26,10 @@ class MainActivity : AppCompatActivity() {
 
     fun onDigitClick(view: View) {
 
-        if (stateError){
+        if (stateError) {
             binding.calculationTv.text = (view as Button).text
             stateError = false
-        } else{
+        } else {
             binding.calculationTv.append((view as Button).text)
         }
         lastNumeric = true
@@ -48,20 +48,20 @@ class MainActivity : AppCompatActivity() {
         binding.calculationTv.text = binding.calculationTv.text.toString().dropLast(1)
         try {
             val lastChar = binding.calculationTv.text.toString().last()
-            if (lastChar.isDigit()){
+            if (lastChar.isDigit()) {
                 onEqual()
             }
-        }catch (e : Exception){
+        } catch (e: Exception) {
             binding.outputTv.text = ""
             binding.outputTv.visibility = View.GONE
-            Log.e("last char error",e.toString())
+            Log.e("last char error", e.toString())
         }
 
     }
 
     fun onOperatorClick(view: View) {
 
-        if (!stateError && lastNumeric){
+        if (!stateError && lastNumeric) {
             binding.calculationTv.append((view as Button).text)
             lastDot = false
             lastNumeric = false
@@ -87,8 +87,8 @@ class MainActivity : AppCompatActivity() {
         binding.outputTv.visibility = View.GONE
     }
 
-    private fun onEqual(){
-        if(lastNumeric && !stateError){
+    private fun onEqual() {
+        if (lastNumeric && !stateError) {
             val txt = binding.calculationTv.text.toString()
 
             val expression = ExpressionBuilder(txt).build()
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
                 val result = expression.evaluate()
                 binding.outputTv.visibility = View.VISIBLE
                 binding.outputTv.text = "= " + result.toString()
-            }catch (ex : ArithmeticException){
+            } catch (ex: ArithmeticException) {
                 Log.e("evaluate error", ex.toString())
                 binding.outputTv.text = "Error"
                 stateError = true
