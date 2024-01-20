@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    // On back Click code here
     fun onBackClick(view: View) {
 
         binding.calculationTv.text = binding.calculationTv.text.toString().dropLast(1)
