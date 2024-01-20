@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
-
+    // onDigitClick method
     fun onDigitClick(view: View) {
 
         if (stateError) {
