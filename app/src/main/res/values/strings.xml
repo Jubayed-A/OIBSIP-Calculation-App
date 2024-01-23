@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Calculator App</string>
+    <string name="this_is_a_splash_logo">this is a splash logo</string>
+    <string name="calculator_app">Calculator App</string>
+    <string name="dev_name">By\nJubayed Alam</string>
 </resources>
