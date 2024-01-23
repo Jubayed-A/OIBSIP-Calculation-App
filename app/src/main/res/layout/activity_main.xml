@@ -35,7 +35,7 @@
     <View
         android:id="@+id/line"
         android:layout_width="match_parent"
-        android:layout_height="2dp"
+        android:layout_height="1dp"
         android:layout_marginBottom="6dp"
         android:background="@color/lineColor"
         app:layout_constraintBottom_toTopOf="@id/linearLayout" />
@@ -63,6 +63,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_back"
+                android:text="Go back"
                 style="@style/operatorButton"
                 android:onClick="onBackClick"
                 app:icon="@drawable/backspace"
