@@ -63,9 +63,9 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_back"
-                android:text="Go back"
                 style="@style/operatorButton"
                 android:onClick="onBackClick"
+                android:text="Go back"
                 app:icon="@drawable/backspace"
                 app:iconTint="@color/btnBackground2" />
 
