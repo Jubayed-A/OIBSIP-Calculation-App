@@ -4,7 +4,7 @@
  <h1 style="display: inline-block; margin: 0; vertical-align: middle;">Calculator App</h1>  
 </div>  
 
-Welcome to Calculator App, This is a simple Android application for Calculation, built using the Simple And powerful Google Material Design. And this app is built for Oaisis Infobyte for Internship Project.
+Welcome to Calculator App, This is a simple Android application for Calculation, built using the Simple And powerful Google Material Design. This app is built for Oaisis Infobyte for the Internship Project.
 <!--
 **APK: https://github.com/Jubayed-A/Computer-Technology-App/releases/download/v.1.5/Computer.Department.apk** 
 
@@ -17,29 +17,23 @@ Welcome to Calculator App, This is a simple Android application for Calculation,
   <img src="https://github.com/Jubayed-A/Computer-Technology-App/assets/106887389/99394944-52e4-46cf-9e3b-0feb64552e95" style="flex:1; margin:5px;" height="450">
   <img src="https://github.com/Jubayed-A/Computer-Technology-App/assets/106887389/7fb86577-d005-4580-af7a-4c245b5f6df9" style="flex:1; margin:5px;" height="450">
 </div>
-
+-->
 
 ## Screenshots
 <div align="center"
   style="display:flex; flex-wrap:wrap;">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/540aad36-3e6e-4918-8a62-e8dbdda170ec" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/93659b69-2ba0-48a1-8298-7e86c45e4667" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/58497113-350f-4e8e-8d9c-2a6766ed45e4" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/799f6320-7a88-4207-bf4c-e13340729a9a" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/7f7e02c2-f753-453b-bb68-7cf9a8be9fc1" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/bafa78ee-3b0f-4ab9-948f-3b36f416850a" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/33f72d38-2ddb-4553-896b-24609cb2c9fa" style="flex:1; margin:5px;" height="450">
+  <img src="https://github.com/Jubayed-A/OIBSIP-Calculation-App/assets/106887389/0a742b19-3553-4089-ba14-9d62d26958ad" style="flex:1; margin:5px;" height="450">
+  <img src="https://github.com/Jubayed-A/OIBSIP-Calculation-App/assets/106887389/1d6c7044-f90e-409e-b1b8-a242c709dfc7" style="flex:1; margin:5px;" height="450">
 </div>
--->
+
 
 ### Key Features
 
-- Material Design : The application follows the Google Material Desing for a create a better Ui Design.
+- Material Design: The application follows Google Material Design to create a better UI design.
 
-- FireBase Database: Utilizes the Room persistence library for Stor Student Information.
-- Responsive Desing With Third Party Library.
+- Responsive Design with Third Party Library.
 - Responsive UI: Designed with responsive UI elements, including a StaggeredGridLayoutManager for a visually appealing layout.
-- Light/dark mode customized based on your phone them.
+- Light/dark mode customized based on your phone.
   
 ### Technologies Used
 
